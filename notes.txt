@@ -1,0 +1,21 @@
+AI/ML
+-----
+
+- Use scrapy (python scraper)
+
+- twitter, facebook, weibou, instagram, linkedin, wikipedia
+
+- Analyze tweets for stock prices
+- Analyze facebook for what program ppl are in
+  (topic modelling)
+- Analyze facebook/linkedin for next company?
+    - competency 
+    - desire 
+    - luck 
+
+* facebook to analyze personality mbti (intj)
+- scraping info from fb. (friends, friends of friends)
+- unsupervised learning, clustering 
+- supervised, recommendator system
+- classify
+- add twitter info?
