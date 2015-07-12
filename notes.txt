@@ -19,3 +19,58 @@ AI/ML
 - supervised, recommendator system
 - classify
 - add twitter info?
+
+Features
+- tf-idf
+
+
+Features based on CANOE Model
+-----------------------------
+
+* conscientiousness
+
+* agreeable
+
+* neuroticism
+
+* extroversion/introversion
+- number of people at the events they attend
+- number of friends
+- number of small(eg.<100ppl) groups they are in
+
+* openness
+
+Features based on MyerBriggs
+----------------------------
+
+* extraversion/introversion
+- number of people at the events they attend
+- number of friends
+- number of small(eg.<100ppl) groups they are in
+
+* sensing/intuition
+
+
+* thinking/feeling
+
+
+* judging/perceiving
+
+
+
+---
+generate_features 
+-> store in standard csv file
+-> (rows entries, columns features.)
+-> tech-stack:
+    nltk facebook-api
+
+data-visualization
+-> tech-stack: 
+    ipython-notebook bokeh scikit-learn
+
+---
+Tech choices
+- bokeh over mpld3
+    faster since uses html canvas over svg
+    higher level abstractions for common graph types and features
